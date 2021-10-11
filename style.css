@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&family=Sacramento&display=swap');
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(63, 170, 212) 0% , rgb(169, 231, 255)15%);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.centersection{
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mountain{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.centersection header{
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    color:#b64926;
+    border-top: 3px solid rgb(177, 103, 6);
+}
+
+.centersection main{
+    font-size: 30px;
+    font-family: 'Andada Pro', serif;
+    font-weight: 600;
+    color:#b64926;
+}
+
+.leftcloud{
+   position: absolute;
+   top: 20%;
+   left: 10%;
+}
+
+.leftcloud2{
+    position: absolute;
+    top: 44%;
+    left: 20%;
+ }
+
+ .leftcloud3{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+ }
+
+.rightcloud{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+ 
+}
+
+p{
+    margin-top: 0;
+    text-align: center;
+}
+
+.rightcloud2{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+
+.rightcloud3{
+    position: absolute;
+    top: 45%;
+    right: 4%;
+}
+
+span{text-decoration: underline 1px;}
+
+.sun{
+    position: absolute;
+    top: 4px;
+}
+
+.fox{
+    margin-bottom: 20px;
+}
